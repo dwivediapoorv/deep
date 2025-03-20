@@ -52,7 +52,7 @@ def callback(input_data, frame_count, time_info, status_flag):
 
 
 async def run():
-    dg_api_key = os.environ.get("DEEPGRAM_API_KEY")
+    dg_api_key = "14164fef1f66a406e3fdd80b27a7c74d9a14187b"
     if dg_api_key is None:
         print("DEEPGRAM_API_KEY env var not present")
         return
